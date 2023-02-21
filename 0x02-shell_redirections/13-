@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#uniq -u "nombredelarchivo"
+echo "california california texas" | tr ' ' '\n'| uniq -u
+
+
+
+
+
