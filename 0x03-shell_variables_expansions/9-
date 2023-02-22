@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+power_value=${power_value:-3}
+
+divide_value=${divide_value:-3}
+
+
+result=$(echo "$power_value/$divide_value" | bc)
+
+
+echo $result

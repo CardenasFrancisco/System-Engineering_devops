@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "Cocodrilo" | tr -d 'cC'

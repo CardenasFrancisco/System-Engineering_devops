@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export breach=10 love=2
+echo sum=$((breach ** love))

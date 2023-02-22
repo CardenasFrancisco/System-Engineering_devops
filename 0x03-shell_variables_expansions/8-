@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Obtener el valor de la variable de entorno TRUEKNOWLEDGE
+trueknowledge_value=${TRUEKNOWLEDGE:-0}
+
+# Sumar 128 con el valor de la variable de entorno TRUEKNOWLEDGE
+sum=$((128 + $trueknowledge_value))
+
+# Imprimir la suma seguida de una nueva línea
+echo $sum

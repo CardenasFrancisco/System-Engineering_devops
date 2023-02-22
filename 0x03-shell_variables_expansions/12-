@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Imprimir todas las combinaciones posibles de dos letras excepto "oo"
+printf '%s\n' {a..z}{a..z} | grep -v "oo"

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export BINARY=1010
+
+decimal_value=$((2#$BINARY))
+
+echo $decimal_value

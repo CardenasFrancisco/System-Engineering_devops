@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ROADMAP="Road"
+echo "The value of the ROADMAP variable is: $ROADMAP"
+
+
+

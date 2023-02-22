@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#local ROADMAP="Map"
+#echo "La variable ROADMAP se ha creado con éxito con el valor: $ROADMAP"
+
+export roadmap="Map. tiene que poder"
+

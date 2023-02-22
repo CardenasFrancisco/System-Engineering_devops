@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export DECIMAL=10
+
+echo hex_value=$(printf "%x" $DECIMAL)
+
+echo $hex_value

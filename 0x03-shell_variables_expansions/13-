@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export NUM=3.14159
+
+printf "%.2f\n" $NUM
